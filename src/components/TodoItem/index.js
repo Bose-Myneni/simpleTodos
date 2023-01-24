@@ -3,7 +3,7 @@ import './index.css'
 
 const SimpleTodo = props => {
   const {deleteTodo, todoDetails} = props
-  const {id, title} = details
+  const {id, title} = todoDetails
   const onDelete = () => {
     deleteTodo(id)
   }
