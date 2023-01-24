@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 600px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.desc {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.delete-button {
+  background-color: transparent;
+  color: #ff0b37;
+  border-width: 1px;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  outline: none;
+}
