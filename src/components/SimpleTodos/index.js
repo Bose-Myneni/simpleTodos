@@ -35,7 +35,7 @@ const initialTodosList = [
 
 // Write your code here
 import {Component} from 'react'
-import SimpleTodo from './components/TodoItem'
+import SimpleTodo from '../TodoItem'
 
 import './index.css'
 
